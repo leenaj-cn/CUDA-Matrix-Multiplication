@@ -86,7 +86,28 @@ that's ressonable.
   
 # Performance
 
-  
+### no ShareMem Kernel time=135.448257 ms
+```
+No Share Memory Performance= 15.85 GFlop/s, Time= 135.448 msec, Size= 2147483648 Ops
+Total Errors = 0
+Comparing CUDA Matrix Multiply with CPU results: PASS
+CUDA Performance= 15.29 GFlop/s, Time= 140.417 msec, Size= 2147483648 Ops
+```
+
+### with SharedMem Kernel time=183.324646 ms
+```
+total cuda GPU time=187.960129 ms
+Total Errors = 0
+Comparing CUDA Matrix Multiply with CPU results: PASS
+CUDA Performance= 11.43 GFlop/s, Time= 187.960 msec, Size= 2147483648 Ops
+```
+
+### CUBLAS FAILED
+```
+Computing with CUBLAS...CUBLAS Performance= 3173.68 GFlop/s, Time= 0.677 msec, Size= 2147483648 Ops
+Total Errors = 352968
+Comparing CUBLAS Matrix Multiply with CPU results: FAIL  
+```
   
 
  
