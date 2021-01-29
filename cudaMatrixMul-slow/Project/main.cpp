@@ -4,9 +4,9 @@
 #include <helper_functions.h>
 #include <helper_cuda.h>
 
-const int M= 256;
-const int K = 256;
-const int N = 256;
+const int M= 640;
+const int K = 640;
+const int N = 640;
 
 float* getRandom(float *a,int m,int n)
 {

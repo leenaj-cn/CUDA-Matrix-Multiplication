@@ -143,10 +143,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="cudaGetDeviceCount.cpp">
-      <FileType>CppCode</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </CudaCompile>
     <CudaCompile Include="NoShareMemory.cu" />
     <CudaCompile Include="MatrixMultiplication.cu">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
