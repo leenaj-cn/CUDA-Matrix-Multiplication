@@ -1,0 +1,1 @@
+nvcc -O3 -Xcompiler "-Wall" -g -G cudaMM.cu -o cudaMM
