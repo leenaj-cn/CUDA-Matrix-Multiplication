@@ -1,4 +1,15 @@
-# Overview
+### Performance
+```
+-heightA=1024, widthA=1024, widthB=1024, heightB=1024
+
+Allocate 4.000000e+00 MB for matrix h_A
+Allocate 4.000000e+00 MB for matrix h_B
+
+Performance= 16.59 GFlop/s, Time= 129.423782 msec, Size= 2147483648 Ops, WorkgroupSize= 1024 threads/block
+
+Checking computed result for correctness:
+ Result = PASS
+```
 ### Define matrix
 ```
 typedef struct {
